@@ -1,0 +1,43 @@
+.cardRate p {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.cardParent {
+  box-shadow: 0 23px 17px rgba(0, 0, 0, 0.1), 0 18px 13px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 20px;
+}
+
+.cardParent::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  top: 0;
+  left: 0;
+}
+
+.cardParent.one::before {
+  background-color: #0275d8;
+}
+
+.cardParent.two::before {
+  background-color: #f0ad4e;
+}
+
+.cardParent.three::before {
+  background-color: #5cb85c;
+}
+
+.cardParent.four::before {
+  background-color: #d9534f;
+}
+
+.dfdf,
+.pie,
+.line {
+  box-shadow: 0 23px 17px rgba(0, 0, 0, 0.1), 0 18px 13px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+
+}

@@ -1,0 +1,89 @@
+<!-- <h1>dashboard works!</h1>
+<div class="card">
+  <div class="card-head">Lorem, ipsum dolor. dashboard 1</div>
+  <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consectetur, facere nam quia fuga
+    asperiores ipsum optio delectus rerum quam ducimus architecto, impedit sapiente illo. Possimus illum dolores dicta
+    molestiae.</div>
+</div>
+<div class="card">
+  <div class="card-head">Lorem, ipsum dolor. dashboard 2</div>
+  <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consectetur, facere nam quia fuga
+    asperiores ipsum optio delectus rerum quam ducimus architecto, impedit sapiente illo. Possimus illum dolores dicta
+    molestiae.</div>
+</div> -->
+<div class="row py-5">
+  <div class="col-md-3 my-2">
+    <div class="cardParent one p-4">
+      <div class="cardRate d-flex justify-content-between align-items-center">
+        <p class="">78</p>
+        <i class="fa-solid fx-2 fa-star fs-1 text-primary"></i>
+      </div>
+      <div class="cardContent">
+        <p class="muted text-capitalize">total projects handeld</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 my-2">
+    <div class="cardParent two p-4">
+      <div class="cardRate d-flex justify-content-between align-items-center">
+        <p class="">452</p>
+        <i class="fa-solid fa-address-book fs-1 text-warning"></i>
+      </div>
+      <div class="cardContent">
+        <p class="muted text-capitalize">contacts you have</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 my-2">
+    <div class="cardParent three p-4">
+      <div class="cardRate d-flex justify-content-between align-items-center">
+        <p class="">36</p>
+        <i class="fa-solid fa-table-cells-column-lock fs-1 text-success"></i>
+      </div>
+      <div class="cardContent">
+        <p class="muted text-capitalize">total unfinshed tasks</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 my-2">
+    <div class="cardParent four p-4">
+      <div class="cardRate d-flex justify-content-between align-items-center">
+        <p class="">12</p>
+        <i class="fa-solid fa-message fs-1 text-success"></i>
+      </div>
+      <div class="cardContent">
+        <p class="muted text-capitalize">unread messages</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row dfdf p-3">
+  <div class="col-md-12 d-flex justify-content-between align-items-center">
+    <div class="d-flex justify-content-center flex-column">
+      <h5 class="text-capitalize p-3">project created</h5>
+      <div class="d-flex align-items-center ps-3">
+        <h3 class="fw-bold me-2">25%</h3>
+        <p class="d-flex justify-content-center align-items-center"><i
+            class="fa-solid me-1 fa-chevron-up fs-3 text-success"></i>last mounth</p>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center">
+      <i class="fa-solid fs-4 fa-ellipsis-vertical"></i>
+    </div>
+  </div>
+</div>
+
+<div class="row my-5">
+  <div class="col-md-6 my-2">
+    <div class="pie p-2" [chart]="pieChart">
+
+    </div>
+
+  </div>
+  <div class="col-md-6 my-2">
+    <div class="line p-2" [chart]="lineChart">
+
+    </div>
+  </div>
+</div>
